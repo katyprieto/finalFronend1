@@ -25,16 +25,18 @@ header nav ul{
     justify-content: row;
     justify-content: space-around;
     list-style: none;
-    margin:1.25rem}
+    margin:5rem;}
     
-header nav ul li{
+header nav ul li a{
+    color:#242E52;
     margin-left: 0.6rem;
     margin-top: 3.75rem;
     font-size: 0.9rem;
-     font-style: normal;
-    font-weight: bold;}
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;}
     
-header nav ul li:hover{
+header nav ul li a:hover{
     color: #F3603B;}
 
 header div img{
@@ -251,6 +253,7 @@ footer .segundofooter i{
     padding-left:0.3rem;}
 
 footer .segundofooter ul{
+    color:white;
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
@@ -258,15 +261,21 @@ footer .segundofooter ul{
     list-style: none;
     margin:0rem 12.5rem 0rem 6rem;
     flex-wrap: wrap;
-    font-weight:lighter;;
+    font-weight:lighter;
     width: 25rem;}
 
 footer .segundofooter ul li{
+    color:white;
+    list-style: none;
     margin: 0.62rem 0rem 0rem 5rem;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size:0.9rem;}
 
-footer .segundofooter ul li:hover{
+footer .segundofooter ul li a{
+    color:white;
+    text-decoration:none;}
+
+footer .segundofooter ul li a:hover{
     color:#F3603B}
 
 #inbox{

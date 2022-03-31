@@ -67,10 +67,10 @@ button{
 /*primera parte*/
 
 main {
- background-image: url(../img/fondo1.png);
-background-repeat: no-repeat;
-background-position: right 62.5rem bottom;
-background-size: 50rem;}
+    background-image: url(../img/fondo1.png);
+    background-repeat: no-repeat;
+    background-position: right 62.5rem bottom;
+    background-size: 50rem;}
 
 main section.primera{
     display: flex;
@@ -215,6 +215,7 @@ main section.tercera article div p{
 /*footer que consta de dos partes identificadas con color naranja y la otra con color negro*/
 /*primera parte del footer*/
 
+
 footer .primerfooter{
     background-color: #F3613C;
     color:white;
@@ -322,7 +323,16 @@ footer .segundofooter  form #emailAddress:focus{
 
 @media (max-width: 480px){
 
-    /*comienzo poniendo todo lo que no quiero que se muestre en movile*/
+    
+body{
+    background-position:left 120px bottom 2500px;
+    background-size:31rem;}
+
+main{
+    background-position:left 260px bottom 1080px;
+    background-size:20rem}
+    
+/*comienzo poniendo todo lo que no quiero que se muestre en movile*/
 header nav{
     display:none}
 

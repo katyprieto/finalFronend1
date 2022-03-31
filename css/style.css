@@ -293,11 +293,13 @@ footer .segundofooter  form #emailAddress:focus{
     color:gray};
             
 #ultimo{
+    margin-left: 70px;}
+
+#ultimop{
     background-color: black;
     color: #FFFFFF;
-    font-size:0.6rem;
-    margin-left: 4.3rem;
-    padding-left:57rem;}
+    font-size:0.62rem;
+    padding-left:60rem;}
 
 /*hacemos nuestro diseño responsive y ponemos una media quering para movile en 480 */
 
@@ -335,6 +337,8 @@ margin:1.8rem 0rem 0rem 8rem ;}
 header div img{
 margin: 1.9rem 0rem 0rem 3rem;
 width: 7rem;}
+
+ /*main dividido en 3 partes*/
 
 main section.primera{
 align-items: center;
@@ -422,6 +426,8 @@ font-size: 0.7rem;
 height: 3rem;
 margin: 2rem 0rem 5rem 9rem;
 width: 8rem;} 
+
+/*footer dividido en dos partes*/
 
 footer .primerfooter{
 align-items: center;

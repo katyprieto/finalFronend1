@@ -264,6 +264,9 @@ footer .segundofooter i{
     color:white;
     padding-left:0.3rem;}
 
+footer .segundofooter i:hover{
+    color:#F3603B}
+
 footer .segundofooter ul{
     color:white;
     display: flex;

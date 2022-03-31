@@ -20,6 +20,8 @@ header{
 #hamburgueza{
     display: none;}
 
+
+
 #hamburgueza:hover{
     color:#F3603B;}
 
@@ -267,10 +269,10 @@ footer .segundofooter ul{
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
+    font-weight:lighter;
     height: 7rem;
     list-style: none;
     margin:0rem 12.5rem 0rem 6rem;
-    flex-wrap: wrap;
     font-weight:lighter;
     width: 25rem;}
 
@@ -306,6 +308,12 @@ footer .segundofooter  form #emailAddress {
     padding:0.75rem 0.3rem;
     text-align:center;
     width: 12.5rem;}
+  
+footer .segundofooter  form #emailAddress:invalid{
+    background-color: rgb(228, 133, 133);}
+
+footer .segundofooter  form #emailAddress:valid{
+    background-color: lightgreen;}
             
 footer .segundofooter  form #emailAddress:focus{
     background-color:pink;
@@ -326,30 +334,30 @@ footer .segundofooter  form #emailAddress:focus{
 
 /*imagen de fondo del background*/    
 body{
-    background-position:left 7.5rem bottom 156rem;
-    background-size:31rem;}
+background-position:left 7.5rem bottom 156rem;
+background-size:31rem;}
 
 main{
-    background-position:left 16.25rem bottom 67.5rem;
-    background-size:20rem}
+background-position:left 16.25rem bottom 67.5rem;
+background-size:20rem}
     
 /*comienzo poniendo todo lo que no quiero que se muestre en movile*/
 header nav{
-    display:none}
+display:none}
 
 header  div button {
-    display:none}
+display:none}
 
 #avatar2{
-    display:none}
+display:none}
 
 #avatar3{
-    display:none}
+display:none}
 
 #banner{
-    display:inline;
-    color:#F3603B;
-    margin-left:12rem};
+display:inline;
+color:#F3603B;
+margin-left:12rem};
 
 /*header*/               
     
@@ -358,12 +366,37 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;}
 
-#hamburgueza{
+#hamburgueza ul {
+display: none;
+font-weight: bold;
+height: 2rem;
+line-height: 2rem;
+margin-top: 0.2rem;
+font-weight: bold;
+text-align: center;
+user-select: none;
+width: 2rem;}
+  
+#hamburgueza input:checked  ~ ul{
+font-size: 0.3rem;
+display:block;
+}
+#hamburgueza label {
+display: inline-block;
+font-weight: bold;
+height: 4rem;
+line-height: 2.5rem;
+text-align: center;
+user-select: none;
+ width: 4rem; }
+
+  #hamburgueza{
 display:inline;
-margin:1.8rem 0rem 0rem 8rem ;}
+margin:1.8rem 0rem 0rem 5rem ;}
+
 
 header div img{
-margin: 1.9rem 0rem 0rem 3rem;
+margin: 4rem 0rem 0rem 3rem;
 width: 7rem;}
 
  /*main dividido en 3 partes*/

@@ -323,13 +323,13 @@ footer .segundofooter  form #emailAddress:focus{
 
 @media (max-width: 480px){
 
-    
+/*imagen de fondo del background*/    
 body{
-    background-position:left 120px bottom 2500px;
+    background-position:left 7.5rem bottom 156rem;
     background-size:31rem;}
 
 main{
-    background-position:left 260px bottom 1080px;
+    background-position:left 16.25rem bottom 67.5rem;
     background-size:20rem}
     
 /*comienzo poniendo todo lo que no quiero que se muestre en movile*/

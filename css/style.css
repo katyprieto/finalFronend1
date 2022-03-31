@@ -2,8 +2,10 @@
     margin: 0;}
 
 body{
-    background-image: url(../img/fondo8.jpg);
+    background-image: url(../img/fondo1.png);
     background-repeat: no-repeat;
+    background-position: left 53rem bottom 125rem;
+    background-size: 50rem;
     font-family: 'Be Vietnam Pro', sans-serif;}
 
     /*header del trabajo*/
@@ -64,6 +66,12 @@ button{
 
 /*primera parte*/
 
+main {
+ background-image: url(../img/fondo1.png);
+background-repeat: no-repeat;
+background-position: right 62.5rem bottom;
+background-size: 50rem;}
+
 main section.primera{
     display: flex;
     flex-direction: row;
@@ -89,7 +97,7 @@ main section.primera img{
 
 /*segunda seccion del main*/
         
-main section.segundas {
+main section.segundas { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
